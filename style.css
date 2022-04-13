@@ -31,6 +31,7 @@
 }
 .nav-bg{
     background-color: blueviolet;
+    transition: 2s;
 }
 
 /* ---------Service Section-------------- */
