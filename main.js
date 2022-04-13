@@ -19,3 +19,9 @@ var typed = new Typed('#typed', {
     loop: true,
     showCursor: true,
 });
+
+// Make list area
+$("#add-item-btn").click(function(){
+  var item = $('#list-item').val();
+  $('.wish-list-ul').append(`<li> ${item} </li>`);
+});
