@@ -25,3 +25,9 @@ $("#add-item-btn").click(function(){
   var item = $('#list-item').val();
   $('.wish-list-ul').append(`<li> ${item} </li>`);
 });
+
+// counter
+$('.count').counterUp({
+  delay: 10,
+  time: 1000
+});

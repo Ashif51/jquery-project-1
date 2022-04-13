@@ -38,5 +38,11 @@
 
 /* ten year section */
 .list-col{
-    height: 700px;
+    height: 400px;
+}
+/* counter section */
+
+.counter-bg{
+    background: url(contbg.jpg);
+    height: 150px;
 }
